@@ -1,0 +1,54 @@
+.flex-horizontal {
+    display: flex;
+    flex-direction: row;
+}
+
+.full-parent-width {
+    width: 100%;
+}
+
+.one-item-line {
+    justify-content: space-around;
+}
+
+.two-items-line {
+    justify-content: space-between;
+}
+
+.top-line {
+    margin-top: -80px;
+}
+
+.bottom-line {
+    margin-top: 60px;
+}
+
+.left-item {
+    margin-left: -60px;
+}
+
+.right-item {
+    margin-right: -60px;
+}
+
+@media(max-width: 576px) {
+    .top-line {
+        margin-top:-50px;
+    }
+
+    .middle-line {
+        margin-top: 30px;
+    }
+
+    .bottom-line {
+        margin-top: 60px;
+    }
+
+    .left-item {
+        margin-left: -40px;
+    }
+
+    .right-item {
+        margin-right: -40px;
+    }
+}

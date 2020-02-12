@@ -1,0 +1,19 @@
+.play-again-button {
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
+    width: 100%;
+    transition: 0.5s;
+}
+.play-again-button:hover {
+    cursor: pointer;
+}
+
+.text-button {
+    color: hsl(229, 25%, 31%);
+    font-size: 1.3rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
