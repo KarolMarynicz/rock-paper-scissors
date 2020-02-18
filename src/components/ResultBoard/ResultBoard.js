@@ -28,8 +28,8 @@ class ResultBoard extends React.Component {
         this.createButton(this.props.computerElement, this.computer);
 
         return (
-            <div className="box">
-                <div className="box box-column">
+            <div id="result-box" className="box">
+                <div className="box box-column right-margin">
                     <p className="picked-text">YOU PICKED</p>
                     <GameButton
                         color={this.player.color}
@@ -43,7 +43,7 @@ class ResultBoard extends React.Component {
                     <PlayAgainButton  onClick={this.props.playAgainClick} />
                 </div>
                 <div id="middle-element-placeholder" />
-                <div className="box box-column">
+                <div className="box box-column left-margin">
                     <p className="picked-text">THE HOUSE PICKED</p>
                     <div id="placeholder" className="placeholder"/>
                     <div id="button-result" className="hidden">

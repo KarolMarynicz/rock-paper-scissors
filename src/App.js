@@ -101,7 +101,7 @@ class App extends React.Component {
         if(this.state.playerChoice.toString().localeCompare(this.state.computerChoice.toString()) === 0) {
             this.setState({result:"TIE"});
         } else {
-            let userChoice = this.choices[this.state.playerChoice.toString()].defeats;
+            let userChoice = this.choices[this.state.playerChoice].defeats;
             for (let i = 0; i < userChoice.length; i++) {
                 if (userChoice[i].toString().localeCompare(this.state.computerChoice.toString()) === 0) {
                     this.setState({result: "YOU WIN"});

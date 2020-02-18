@@ -50,7 +50,43 @@
 }
 
 @media(max-width: 576px) {
+    #middle-element {
+        position: absolute;
+        bottom: 80px;
+        left: 0;
+        margin: 0 auto;
+        right: 0;
+    }
+
+    #middle-element-placeholder {
+        width: 20px;
+    }
+
+    #result-box {
+        margin: -40px -20px 0 0;
+    }
+
+    .placeholder {
+        height: 100px;
+        width: 100px;
+        margin-bottom: 0;
+    }
+
     .result-text {
-        font-size: 2rem;
+        font-size: 3rem;
+    }
+
+    .picked-text {
+        font-size: 1rem;
+        margin-top: 20px;
+        order: 1;
+    }
+
+    .left-margin {
+        margin-left: 40px;
+    }
+
+    .right-margin {
+        margin-right: 40px;
     }
 }
