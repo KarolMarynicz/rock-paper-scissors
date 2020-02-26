@@ -5,4 +5,4 @@ Not sure what this extension is? ->  [Check out this clip from The Big Bang Theo
 
 Website made with React framework.
 
-Live Demo can be found [here](karolmarynicz.github.io/rock-paper-scissors)
+Live Demo can be found [here](https://karolmarynicz.github.io/rock-paper-scissors)
